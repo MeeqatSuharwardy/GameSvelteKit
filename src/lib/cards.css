@@ -1,0 +1,46 @@
+/* src/lib/cards.css */
+
+.card {
+    width: 60px;
+    height: 90px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+    line-height: 1.2;
+    font-size: 20px;
+    position: relative;
+    display: inline-block;
+    margin: 5px;
+}
+
+.card .rank {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 1.5em;
+}
+
+.card .suit {
+    font-size: 1.2em;
+}
+
+.card.spades .suit,
+.card.spades .rank {
+    color: black;
+}
+
+.card.hearts .suit,
+.card.hearts .rank {
+    color: red;
+}
+
+.card.diamonds .suit,
+.card.diamonds .rank {
+    color: red;
+}
+
+.card.clubs .suit,
+.card.clubs .rank {
+    color: black;
+}

@@ -2,9 +2,7 @@
 	import { page } from '$app/stores';
 
 	const games = [
-		{ name: 'Dice', link: '/about', color: '#d32f2f', icon: '🎲' },
-		{ name: 'Coin Flip', link: '/about', color: '#fbc02d', icon: '🪙' },
-		{ name: 'Slots', link: '/sverdle', color: '#ff7043', icon: '🎰' },
+		{ name: 'Poker', link: '/poker', color: '#00796b', icon: '🃏' },
 	];
 </script>
 
@@ -12,8 +10,6 @@
 	<title>VulcanTech Casino</title>
 	<meta name="description" content="Svelte demo app with casino theme" />
 </svelte:head>
-
-
 
 <section class="grid-container">
 	{#each games as game}
